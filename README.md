@@ -12,10 +12,10 @@ Hi folks! We are AutoML Team from Xiaomi AI Lab, based in Beijing, China. There 
 
 # Citation 
 
-  @article{chu2019fairdarts,
-      title={{Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search}},
-      author={Chu, Xiangxiang and Zhou, Tianbao and Zhang, Bo and Li, Jixiang},
-      journal={arXiv preprint arXiv:1911.12126},
-      url={https://arxiv.org/abs/1911.12126.pdf},
-      year={2019}
-  }
+    @article{chu2019fairdarts,
+        title={{Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search}},
+        author={Chu, Xiangxiang and Zhou, Tianbao and Zhang, Bo and Li, Jixiang},
+        journal={arXiv preprint arXiv:1911.12126},
+        url={https://arxiv.org/abs/1911.12126.pdf},
+        year={2019}
+    }
