@@ -123,7 +123,7 @@ def main():
       start_epoch = checkpoint['epoch']
       dur_time = checkpoint['dur_time']
       model_optimizer.load_state_dict(checkpoint['model_optimizer'])
-      architect.arch_optimizer.load_state_dict(checkpoint['arch_optimizer'])
+      architect.optimizer.load_state_dict(checkpoint['arch_optimizer'])
       model.restore(checkpoint['network_states'])
       logging.info('=> loaded checkpoint \'{}\'(epoch {})'.format(args.resume, start_epoch))
     else:
