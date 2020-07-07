@@ -1,4 +1,4 @@
-# Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search
+# Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search [ECCV'20]
 
 Differentiable Architecture Search (DARTS) is now a widely disseminated weight-sharing neural architecture search method. However, there are two fundamental weaknesses remain untackled. First, we observe that the well-known aggregation of skip connections during optimization is caused by an unfair advantage in an exclusive competition. Second, there is a non-negligible incongruence when discretizing continuous architectural weights to a one-hot representation. Because of these two reasons, DARTS delivers a biased solution that might not even be suboptimal. In this paper, we present a novel approach to curing both frailties. Specifically, as unfair advantages in a pure exclusive competition easily induce a monopoly, we relax the choice of operations to be collaborative, where we let each operation have an equal opportunity to develop its strength. We thus call our method Fair DARTS. Moreover, we propose a zero-one loss to directly reduce the discretization gap. Experiments are performed on two mainstream search spaces, in which we achieve new state-of-the-art networks on ImageNet. 
 
@@ -126,12 +126,12 @@ We run FairDARTS 7 times, all searched architectures have close performance.
 
 # Citation 
 
-    @article{chu2019fairdarts,
+    @inproceedings{chu2019fairdarts,
         title={{Fair DARTS: Eliminating Unfair Advantages in Differentiable Architecture Search}},
         author={Chu, Xiangxiang and Zhou, Tianbao and Zhang, Bo and Li, Jixiang},
-        journal={arXiv preprint arXiv:1911.12126},
+        booktitle={16th Europoean Conference On Computer Vision},
         url={https://arxiv.org/abs/1911.12126.pdf},
-        year={2019}
+        year={2020}
     }
     
 # Acknowledgement 
