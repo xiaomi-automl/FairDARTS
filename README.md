@@ -4,14 +4,6 @@
 
 Differentiable Architecture Search (DARTS) is now a widely disseminated weight-sharing neural architecture search method. However, there are two fundamental weaknesses remain untackled. First, we observe that the well-known aggregation of skip connections during optimization is caused by an unfair advantage in an exclusive competition. Second, there is a non-negligible incongruence when discretizing continuous architectural weights to a one-hot representation. Because of these two reasons, DARTS delivers a biased solution that might not even be suboptimal. In this paper, we present a novel approach to curing both frailties. Specifically, as unfair advantages in a pure exclusive competition easily induce a monopoly, we relax the choice of operations to be collaborative, where we let each operation have an equal opportunity to develop its strength. We thus call our method Fair DARTS. Moreover, we propose a zero-one loss to directly reduce the discretization gap. Experiments are performed on two mainstream search spaces, in which we achieve new state-of-the-art networks on ImageNet. 
 
-## We Are Still Hiring (both interns and full-time)!
-
-Hi folks! We are AutoML Team from Xiaomi AI Lab, based in Beijing, China. There are few open positions (internships included), welcome global applications from students, new graduates and professionals skilled in NAS and Deep Learning (Vision, Speech, NLP etc.)! 
-
-- Please send your resume to zhangbo11@xiaomi.com
-- 人工智能算法/软件工程师（含实习生）职位，简历请发送至 zhangbo11@xiaomi.com
-- QQ群交流：小米 AutoML 交流反馈, 群号：702473319 (加群请填写“神经网络架构搜索”的英文简称)
-
 
 ## User Guide 
 
